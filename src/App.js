@@ -1,24 +1,56 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  Carousel
+} from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Carousel >
+    <div className = "image" >
+    <img src = "./pics/img1.jpg" / >
+
     </div>
+
+    <div className = "image" >
+    <img src = "./pics/img2.jpg" / >
+
+    </div>
+    <div className = "image" >
+    <img src = "./pics/img3.jpg" / >
+
+    </div>
+    <div className = "image" >
+    <img src = "./pics/img4.jpg" / >
+
+    </div>
+    <div className = "image" >
+    <img src = "./pics/img5.jpg" / >
+
+    </div>
+    <div className = "image" >
+    <img src = "./pics/img6.jpg" / >
+
+    </div>
+    <div className = "image" >
+    <img src = "./pics/img7.jpg" / >
+
+    </div>
+    <div className = "image" >
+    <img src = "./pics/img8.jpg" / >
+
+    </div>
+    <div className = "image" >
+    <img src = "./pics/img9.jpg" / >
+
+    </div>
+    <div className = "image" >
+    <img src = "./pics/img10.jpg" / >
+
+    </div>
+
+
+    </Carousel>
   );
 }
 
